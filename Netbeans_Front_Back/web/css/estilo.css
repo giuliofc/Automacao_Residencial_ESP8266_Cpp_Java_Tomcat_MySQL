@@ -1,0 +1,232 @@
+#bodyIndex {
+    background-color:#f8cb8f;
+    margin:0;
+    padding:0;
+}
+
+#divMain{
+    position:relative;
+}
+
+/* ------ Inicio do Header ------- */
+#divHeader {
+    height:20%;
+    background-color:#f8cb8f;
+    border-bottom:1px solid black;
+    font-family:Comic Sans MS, Times, serif; 
+}
+#divHeader img {
+    width:auto;
+    height:auto;
+    max-width:120px;
+}
+#divHeader #divImg {
+    position:absolute;
+    padding:19px 10px 0px 40px; /*cima direita baixo esquerda*/ 
+}
+#divHeader #divNomeDoPrograma {
+    position:absolute;
+    padding:12px 10px 0px 350px;
+    font-size:30px;    
+}
+#divHeader #hora{
+    position: absolute;
+    margin: 125px 0px 0px 900px;
+}
+
+/* ------ Inicio do Menu ------- */
+#divLinksMenu {
+    position:absolute;
+    padding:6px 10px 10px 30px;
+    font-size:20px;
+    font-family:Comic Sans MS, Times, serif;
+}
+#divLinksMenu a {
+    text-decoration:none;
+    color:black;    
+}
+#divLinksMenu #spanHome {
+    font-weight:bold;   
+}
+
+
+/*-------- Inicio da tela Produto ----------- */
+#divProduto{
+    background-color:#f8cb8f;
+    font-family:Comic Sans MS, Times, serif;
+    font-weight:bold;
+}
+#divProduto .textRight {
+    text-align:right;
+}
+#divProduto #divPrincipalProduto{
+    margin:60px 0px 70px 55px;
+    width: 450px;
+}
+#divProduto #divPrincipalProduto #divConteudoCores{
+    display: inline-block;
+}
+#divProduto #divPrincipalProduto #divForm1 {
+    margin:5px 10px 10px 50px;   
+}
+#divProduto #tblCadastro td,input[type="text"] {
+    font-family:Comic Sans MS, Times, serif;
+    font-weight:bold;
+    width:150px;
+}
+#divProduto table td input[type="number"] {
+    border:1px solid black;
+    width:50px;
+}
+
+#divProduto table td input[type="text"] {
+    border:1px solid black;
+    height:30px;
+}
+
+
+
+         /*--Slider: Input ranger --*/
+.barCores{
+    -webkit-appearance: none;
+}
+.barCores::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+.barCores input[type=range]:focus {
+    outline: none;
+}
+.barCores input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+.vermelho::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: red;
+    margin-top: -4px;
+}
+.verde::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: green;
+    margin-top: -4px;
+}
+.azul::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: blue;
+    margin-top: -4px;
+}
+
+#divProduto table #box_color{
+   width: 129px;
+   height: 50px;
+}
+
+/*--fim do input ranger --*/  
+
+       
+#divProduto #tblCamposCadastro {
+    border-spacing:5px 10px;
+}
+#divProduto #divBotoesCor {
+    background-color:#f8cb8f;
+    position:absolute;
+    margin:0px 0px 0px 55px;
+}
+#divProduto #divBotoesCor #inpEnviarCor{
+    width:90px;
+    height:30px;
+    border:1px solid black;
+    font-family:Comic Sans MS, Times, serif;
+    background-color:rgb(255,153,0);
+}
+#divProduto #divBotoesCor #inpLigaDesCor{
+    width:90px;
+    height:30px;
+    border:1px solid black;
+    font-family:Comic Sans MS, Times, serif;
+    background-color:rgb(255,153,0);
+}
+#divProduto #divBotoesCor #inpSalvarCor{
+    width:90px;
+    height:30px;
+    border:1px solid black;
+    font-family:Comic Sans MS, Times, serif;
+    background-color:rgb(255,153,0);
+}
+#divProduto #divNivelRealTime {
+    position: absolute;
+    display: inline-block;
+    margin: 0px 0px 0px 300px;
+}
+#divProduto #divNivelRealTime #somediv{
+    margin-top:15px; 
+}
+
+/*-----------Inicio Tela Listar ---------------*/
+/*---inicio listar cor ----*/
+#divListar{
+    font-family:Comic Sans MS, Times, serif;
+    font-weight:bold;
+    margin:0px 0px 0px 100px;
+    position:relative;
+}
+#divListar #divTituloListar{
+    padding:40px 0px 0px 200px; 
+}
+#divListar #divMensagemTelaListarCorAtual{
+    position:absolute;
+    top:85px;
+    left:250px;
+}
+#divListar table.comBordas{
+    border: 1px solid black;
+    background: #FFFFF0;
+}
+#divListar table.comBordas td{
+    border: 1px solid black;
+}
+#divListar table.comBordas th{
+    border: 1px solid black;
+    background: #F0FFF0;
+}
+#divListar table th.simetricas1{
+    width:60px;
+}
+#divListar .btListar{
+    width:180px;
+    height:30px;
+    border:1px solid black;
+    font-family:Comic Sans MS, Times, serif;
+    background-color:rgb(255,153,0);
+}
+#divListar #divConteudoListarCor{
+    display: inline-block;
+}
+
+/*---Inicio listar nivel ---*/
+#divListar #divConteudoListarNivel{
+    display: inline-block;
+    margin-left: 150px;
+}
+#divConteudoListarNivel #divMensagemTelaListarNivel{
+    position: absolute;
+    top: 85px;
+    left: 870px;
+}
+

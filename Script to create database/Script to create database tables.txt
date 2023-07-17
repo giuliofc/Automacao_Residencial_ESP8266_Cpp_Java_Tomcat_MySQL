@@ -1,0 +1,19 @@
+
+CREATE DATABASE automacao;
+
+CREATE TABLE coratual (
+idDisp INT NOT NULL AUTO_INCREMENT,
+red INT NOT NULL,
+green INT NOT NULL,
+blue INT NOT NULL,
+status INT NOT NULL,
+PRIMARY KEY (idDisp)
+);
+
+CREATE TABLE historiconivel (
+idNivel INT NOT NULL AUTO_INCREMENT,
+idDisp INT NOT NULL,
+dataNivel DATETIME NOT NULL,
+nivel DOUBLE(3,2) NOT NULL,
+PRIMARY KEY (idNivel)
+);
