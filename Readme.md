@@ -7,11 +7,12 @@ Periodicamente o valor de um potenciômetro, simulando o nível da caixa d'água
 Podem ser cadastrados mais de um dispositivo e o usuário poderá lista-los, para editar enviando uma nova cor ao dispositivo ou deleta-la do banco de dados.
 É possível listar o histórico de nível (histórico do potenciômetro) introduzindo um intervalo de dia, hora e minutos na interface web.
 
+[Vídeo Demonstrativo Canal Youtube](https://www.youtube.com/watch?v=mHW7HrxmpXs&t=486s)
 
-![Tela Home](imagens/telaHome.PNG)
+![Tela Home](imagens/telaHome.png)
 
-![Tela Listar](imagens/telaListar.PNG)
+![Tela Listar](imagens/telaListar.png)
 
 ![Linguagens do Projeto](imagens/linguagens.PNG)
 
-[Vídeo Demonstrativo](https://www.youtube.com/watch?v=mHW7HrxmpXs&t=486s)
+
